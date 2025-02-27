@@ -179,6 +179,10 @@ padding-left: 0.75rem;
     padding-top: 0;
 }
 
+.ekVYuR a:hover{
+    text-decoration: none;
+}
+
 
 
 .gtjgvd {
@@ -258,5 +262,3 @@ a:focus{
     outline: rgb(0, 91, 103) 0.1875rem solid;
     outline-offset: 0.1875rem;
 }
-
-a 
