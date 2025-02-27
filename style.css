@@ -6,6 +6,9 @@ body {
     font-style: normal;
     font-weight: 400;
     line-height: 24px;
+
+        padding: 1rem 2rem;
+
 }
 
 a {
@@ -26,11 +29,12 @@ a {
 
 
 .ehlJHP {
-    height: 2.5rem;
+    /* height: 2.5rem; */
     margin-bottom: 1.5rem;
     margin-top: 2.5rem;
     padding-top: 0px;
     padding-right: 1rem;
+    padding-left: 1rem;
     background-color: rgb(202, 231, 234);
     border-top-left-radius: 0px;
     border-top-right-radius: 0px;
@@ -39,11 +43,11 @@ a {
     width: 100%;
 }
 
-.cfFKBp {
+.cfFKBp h2 {
     color: rgb(0, 91, 103);
     font-size: 1rem;
     font-weight: 400;
-    line-height: 2.5rem;
+    /* line-height: 2.5rem; */
 }
 
 .bUeBss {
@@ -204,3 +208,48 @@ padding-left: 0.75rem;
 
 }
 
+.fTFHYi {
+    left: 0px;
+    display: block;
+    position: absolute;
+    top: 50%;
+    transform: translate(0px, -50%);
+    color: grey;
+}
+.ekVYuR li {
+    position: relative;
+}
+
+.gtjgvd {
+    font-size: 1rem;
+    display: block;
+    margin: 0px;
+    padding-left: 1.5rem;
+}
+
+.ekVYuR {
+    display: inline-grid
+;
+    padding: 0px;
+}
+* {
+    scroll-margin-top: 10rem;
+    box-sizing: border-box;
+}
+
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    unicode-bidi: isolate;
+}
+
+.lnliLR {
+    height: 8.4375rem;
+    width: 100%;
+    position: relative;
+}
