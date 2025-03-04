@@ -109,8 +109,7 @@ padding-left: 0.75rem;
     text-decoration: underline;
 }
 
-/* .fJiXFl:hover, */
-a:focus{
+.fJiXFl:has(.iwaYvV:focus){
     box-shadow: 0 0 0 0.125rem #f6f6f6, 0 0 0 0.25rem #238CEC;
 
 }
@@ -257,7 +256,7 @@ ul.ekVYuR {
 }
 
 
-
+/* tel and email */
 .kBQXJu a:focus,
 .gtjgvd a:focus{
     /* outline: rgb(0, 91, 103) 0.1875rem solid;
