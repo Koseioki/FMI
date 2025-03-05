@@ -1,7 +1,8 @@
-*{
+* {
 
     outline: none;
 }
+
 body {
     font-family: Arial, FreightSans-Book, serif;
     color: rgb(66, 66, 66);
@@ -103,13 +104,14 @@ padding-left: 0.75rem;
     border-left-style: solid;
     border-color: #6f6f6f;
     cursor: pointer;
+    position: relative;
 }
 
-.fJiXFl:hover a{
+.fJiXFl:hover a {
     text-decoration: underline;
 }
 
-.fJiXFl:has(.iwaYvV:focus){
+.fJiXFl:has(.iwaYvV:focus) {
     box-shadow: 0 0 0 0.125rem #f6f6f6, 0 0 0 0.25rem #238CEC;
 
 }
@@ -156,6 +158,16 @@ padding-left: 0.75rem;
 .iwaYvV {
     /* cursor: pointer; */
     text-decoration-line: none;
+
+}
+
+.iwaYvV::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
 }
 
 .iwaYvV:focus {
@@ -178,7 +190,7 @@ padding-left: 0.75rem;
     padding-top: 0;
 }
 
-.ekVYuR a:hover{
+.ekVYuR a:hover {
     text-decoration: none;
 }
 
@@ -257,8 +269,14 @@ ul.ekVYuR {
 
 
 /* tel and email */
+.kBQXJu a,
+.gtjgvd a,
+.jZVkWA {
+    z-index: 99;
+}
+
 .kBQXJu a:focus,
-.gtjgvd a:focus{
+.gtjgvd a:focus {
     /* outline: rgb(0, 91, 103) 0.1875rem solid;
     outline-offset: 0.1875rem; */
     box-shadow: 0 0 0 0.125rem #f6f6f6, 0 0 0 0.25rem #238CEC;
