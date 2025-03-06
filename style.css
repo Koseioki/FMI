@@ -94,17 +94,19 @@ padding-left: 0.75rem;
     height: 100%;
     padding: 1rem;
     /* padding-bottom: 0.5rem; */
-    margin-top: 0;
+    /* margin-top: 0; */
     background-color: rgb(255, 255, 255);
     border-radius: 0.1875rem;
     border-width: 0.0625rem;
-    border-top-style: solid;
-    border-right-style: solid;
-    border-bottom-style: solid;
-    border-left-style: solid;
+    border-style: solid;   
     border-color: #6f6f6f;
-    /* cursor: pointer; */
+    /* border: 1px solid pink; */
     position: relative;
+}
+
+.lnliLR {
+    /* position: relative; */
+
 }
 
 .fJiXFl:hover a {
@@ -118,32 +120,33 @@ padding-left: 0.75rem;
 
 
 .iwaYvV {
-    
+
     /* cursor: pointer; */
     text-decoration-line: none;
- 
+
 
 }
 
-a::after {
+.fJiXFl .iwaYvV::after {
     content: '';
     position: absolute;
     left: 0;
     top: 0;
     right: 0;
     bottom: 0;
-    border: pink 1px solid;
+    /* border: pink 1px solid; */
 }
 
 .iwaYvV:focus {
     text-decoration: underline;
 }
 
+/* 
 .lnliLR {
     height: 8.4375rem;
     width: 100%;
     position: relative;
-}
+} */
 
 
 .euIiEn {
@@ -155,7 +158,7 @@ a::after {
 }
 
 .gcMFAA {
-    position: relative;
+    /* position: relative; */
     /* overflow-x: hidden;
     overflow-y: hidden; */
     height: inherit;
@@ -216,6 +219,7 @@ a::after {
     top: 50%;
     transform: translate(0, -50%);
     color: grey;
+    
 }
 
 
@@ -229,7 +233,7 @@ a::after {
 
 
 .ekVYuR li {
-    position: relative;
+    /* position: relative;       */
 }
 
 .gtjgvd {
@@ -258,12 +262,13 @@ ul.ekVYuR {
     margin-inline-end: 0;
     /* padding-inline-start: 1rem; */
     unicode-bidi: isolate;
+    /* position: relative; */
 }
 
 .lnliLR {
     height: 8.4375rem;
     width: 100%;
-    position: relative;
+    /* position: relative; */
 }
 
 .svg-inline--fa {
@@ -271,19 +276,21 @@ ul.ekVYuR {
     height: 1em;
     overflow: visible;
     vertical-align: -.125em;
+    /* position: relative; */
+
 }
 
-a:hover{
-    border: blue 1px solid;
+a:hover {
+    /* border: blue 1px solid; */
 }
 
 /* tel and email */
-/* .kBQXJu a,
+.kBQXJu a,
 .gtjgvd a,
 .jZVkWA {
-    border: 1px red solid;
+    /* border: 1px red solid; */
     position: relative;
-} */
+}
 
 .kBQXJu a:focus,
 .gtjgvd a:focus {
