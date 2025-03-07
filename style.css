@@ -90,17 +90,15 @@ padding-left: 0.75rem;
     list-style: none;
 }
 
+/* container div */
 .fJiXFl {
     height: 100%;
     padding: 1rem;
-    /* padding-bottom: 0.5rem; */
-    /* margin-top: 0; */
     background-color: rgb(255, 255, 255);
     border-radius: 0.1875rem;
     border-width: 0.0625rem;
     border-style: solid;   
     border-color: #6f6f6f;
-    /* border: 1px solid pink; */
     position: relative;
 }
 
@@ -134,7 +132,6 @@ padding-left: 0.75rem;
     top: 0;
     right: 0;
     bottom: 0;
-    /* border: pink 1px solid; */
 }
 
 .iwaYvV:focus {
@@ -285,13 +282,10 @@ a:hover {
     /* border: blue 1px solid; */
 }
 
-/* tel and email */
+/* tel and email links */
 .kBQXJu,
 .gtjgvd
-/* ,
-.jZVkWA */
 {
-    /* border: 1px red solid; */
     position: relative;
     width: fit-content;
 }
