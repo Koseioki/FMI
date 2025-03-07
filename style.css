@@ -239,6 +239,7 @@ padding-left: 0.75rem;
 .gtjgvd {
     font-size: 1rem;
     display: block;
+    /* position: relative; */
     margin: 0;
     padding-left: 1.5rem;
 }
@@ -285,11 +286,14 @@ a:hover {
 }
 
 /* tel and email */
-.kBQXJu a,
-.gtjgvd a,
-.jZVkWA {
+.kBQXJu,
+.gtjgvd
+/* ,
+.jZVkWA */
+{
     /* border: 1px red solid; */
     position: relative;
+    width: fit-content;
 }
 
 .kBQXJu a:focus,
